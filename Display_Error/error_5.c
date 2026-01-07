@@ -1,3 +1,8 @@
+/*
+    This C program demonstrates error handling using errno with a switch statement. After trying to open Marvellous.txt 
+    in read-only mode, it checks errno and prints a user-friendly message for specific errors such as missing files (ENOENT)
+    or permission issues (EACCES), while defaulting to the standard error description for other cases.
+*/
 #include<stdio.h>
 #include<errno.h>
 #include<fcntl.h>
