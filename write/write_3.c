@@ -1,3 +1,8 @@
+/*
+    This C program demonstrates appending data to a file using the O_APPEND flag. 
+    It opens Demo.txt in append mode and writes the string "Indiaismycountry" to 
+    the end of the file, ensuring that the existing content is preserved.
+*/
 #include<unistd.h>
 #include<stdio.h>
 #include<fcntl.h>
