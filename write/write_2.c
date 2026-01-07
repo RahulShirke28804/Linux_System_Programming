@@ -1,3 +1,8 @@
+/*
+    This C program highlights how writing to a file in write-only mode overwrites existing content. 
+    It opens Demo.txt in write-only mode and writes the string "helloworld" to it, replacing the first 
+    10 bytes of the file, then prints the number of bytes successfully written.
+*/
 #include<unistd.h>
 #include<stdio.h>
 #include<fcntl.h>
