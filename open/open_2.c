@@ -1,3 +1,9 @@
+/*
+This C program demonstrates basic file handling using the open() system call. 
+It tries to open a file named Second.c in read–write mode and displays whether 
+the file was opened successfully along with the returned file descriptor.
+*/
+
 #include <fcntl.h>
 #include<stdio.h>
 
