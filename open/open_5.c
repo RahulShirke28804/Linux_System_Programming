@@ -1,3 +1,9 @@
+/*
+This C program demonstrates basic file handling using the open() and close() system calls. 
+It creates (or truncates) a file named Second.c with full permissions using the O_CREAT and O_TRUNC flags, 
+reports whether the operation was successful, and then closes the file descriptor.
+*/
+
 #include <fcntl.h>
 #include<stdio.h>
 #include <unistd.h>
