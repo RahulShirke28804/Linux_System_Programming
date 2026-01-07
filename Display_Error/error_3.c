@@ -1,3 +1,8 @@
+/*
+    This C program demonstrates how to convert an error number into a human-readable message. 
+    After attempting to open Marvellous.txt in read-only mode, it prints the file descriptor, 
+    the errno value, and the corresponding error message using strerror().
+*/
 #include<stdio.h>
 #include<errno.h>
 #include<fcntl.h>
