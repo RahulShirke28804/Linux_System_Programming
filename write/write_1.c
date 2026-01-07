@@ -1,3 +1,8 @@
+/*
+    This C program demonstrates writing data to a file using the write() system call. 
+    It opens Demo.txt in write-only mode, writes the first 10 characters from a buffer 
+    containing the English alphabet, reports the number of bytes written, and then closes the file.
+*/
 #include<unistd.h>
 #include<stdio.h>
 #include<fcntl.h>
