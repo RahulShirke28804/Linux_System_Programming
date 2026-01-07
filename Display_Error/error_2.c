@@ -1,3 +1,8 @@
+/*
+    This C program illustrates how errno is set when a system call fails. 
+    It attempts to open a file named Marvellous.txt in read-only mode, prints 
+    the returned file descriptor value, and then displays the corresponding errno value.
+*/
 #include<stdio.h>
 #include<errno.h>
 #include<fcntl.h>
