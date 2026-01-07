@@ -1,3 +1,8 @@
+/*
+    This C program demonstrates iterating through command-line arguments using argc and argv. 
+    It first prints the total number of arguments passed to the program, and then displays 
+    each argument one by one using a loop.
+*/
 #include<stdio.h>
 
 int main(int argc, char *argv[])
